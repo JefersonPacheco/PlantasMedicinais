@@ -26,7 +26,7 @@ public class Email {
 
 
                 Properties props = new Properties();
-                /** Parâmetros de conexão com servidor Gmail */
+                /** Parâmetros de conexão com servidor de email */
                 props.put("mail.smtp.host", "smtp-mail.outlook.com");
                 props.put("mail.smtp.port", "587");
                 props.put("mail.smtp.starttls.enable","true");

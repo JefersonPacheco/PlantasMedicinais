@@ -36,7 +36,7 @@ public class Email {
                             new javax.mail.Authenticator() {
                                  protected PasswordAuthentication getPasswordAuthentication() 
                                  {
-                                       return new PasswordAuthentication("umctccplanta@outlook.com", "Zelda159753");
+                                       return new PasswordAuthentication("Insira aqui o email", "Insira aqui a senha");
                                  }
                             });
 
@@ -46,7 +46,7 @@ public class Email {
                 try {
 
                       Message message = new MimeMessage(session);
-                      message.setFrom(new InternetAddress("umctccplanta@outlook.com")); //Remetente
+                      message.setFrom(new InternetAddress("Insira aqui o email")); //Remetente
 
                       Address[] toUser = InternetAddress //Destinatário(s)
                                  .parse(endDest);  
